@@ -5,8 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
-    timeout-minutes: 9999
+    runs-on: windows-latest 
     
     steps:
       - name: Downloading Essentials
